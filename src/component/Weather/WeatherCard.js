@@ -75,7 +75,7 @@ class WeatherMain extends Component {
           searchValue={this.state.searchTerm}
           updateValue={this.updateSearchValue}
           handleKeyDown={this.enterKeySearch}
-          textPlaceholder="Rechercher une ville..."
+          textPlaceholder="Search a city"
         />
         <Weather
           loading={this.state.loading}

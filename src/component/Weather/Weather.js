@@ -32,8 +32,8 @@ const Weather = ({ display, city, icon, temperature, status, loading }) => {
               <Temperature value={temperature} />
             </div>
             <div className="card-footer text-center">
-              <a href={`/forecast/${city}`} className="btn btn-primary">
-                Voir les prévisions
+              <a href={`/forecast/${city}`} className="btn btn-primary bg-dark">
+                See the forcast
               </a>
             </div>
           </div>

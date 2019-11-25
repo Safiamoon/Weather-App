@@ -15,7 +15,7 @@ const ForecastItem = ({
 
   return (
     <div className="card shadow mt-3 weather-card forecast-item">
-      <div className="card-header text-center bg-primary text-white">
+      <div className="card-header text-center bg-dark text-white">
         <h2>{itemHour}h</h2>
         <p className="m-0">{description}</p>
       </div>
@@ -25,7 +25,7 @@ const ForecastItem = ({
       </div>
       <div className="card-footer text-center">
         <h4>
-          <span className="badge badge-light">
+          <span className="badge badge-dark">
             <i className="wi wi-owm-804 mr-2"></i>
             {clouds}%
           </span>
