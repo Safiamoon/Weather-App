@@ -78,7 +78,14 @@ I used [OpenWeatherMap API](https://openweathermap.org/) for weather data, [Weat
 - Clone this repo git
 - Create a .env file 
 - Add your own REACT_APP_API_KEY 
-- npm install
+- `yarn add node-sass`
+- `yarn add bootstrap`
+- `yarn add jquery popper.js`
+- `yarn add axios`
+- `npm i better-react-spinkit`
+- `yarn add lodash`
+- `npm install react-router-dom`
+- `npm install`
 - Serve it locally  `yarn install`
 
 
