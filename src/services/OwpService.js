@@ -2,7 +2,7 @@ import Axios from "axios";
 import { WEATHER_URL, FORECAST_URL } from "../constants";
 
 const getFullUrl = url => (
-  `${url}&APPID=${process.env.REACT_APP_API_KEY}&lang=fr&units=metric`
+  `${url}&APPID=${process.env.REACT_APP_API_KEY}&lang=eng&units=metric`
 )
 
 export const getWeatherData = async city => {
