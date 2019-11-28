@@ -3,7 +3,7 @@ import { getWeatherData } from "../../services/OwpService";
 import SearchBar from "../Search/SearchBar";
 import Weather from "./Weather";
 
-class WeatherMain extends Component {
+class WeatherCard extends Component {
   constructor(props) {
     super(props);
 
@@ -90,4 +90,4 @@ class WeatherMain extends Component {
   };
 }
 
-export default WeatherMain;
+export default WeatherCard;
