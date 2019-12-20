@@ -86,7 +86,7 @@ I used [OpenWeatherMap API](https://openweathermap.org/) for weather data, [Weat
 - `yarn add lodash`
 - `npm install react-router-dom`
 - `npm install`
-- Serve it locally  `yarn install`
+- Serve it locally  `yarn start` 
 
 
 
